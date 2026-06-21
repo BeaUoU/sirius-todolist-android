@@ -38,8 +38,8 @@ fun TodoItem(
         onClick = onItemClick,
         modifier = modifier,
         shape = MaterialTheme.shapes.medium,
-        shadowElevation = 0.dp, // Removido sombra para um visual mais limpo com as novas cores
-        color = MaterialTheme.colorScheme.surfaceContainer, // Usa o tom claro dos textfields
+        shadowElevation = 0.dp,
+        color = MaterialTheme.colorScheme.surfaceContainer,
         border = BorderStroke(1.dp, MaterialTheme.colorScheme.onBackground.copy(alpha = 0.1f)),
     ){
         Row(
@@ -51,7 +51,7 @@ fun TodoItem(
                 checked = todo.isCompleted,
                 onCheckedChange = onCompletedChange,
                 colors = CheckboxDefaults.colors(
-                    checkedColor = MaterialTheme.colorScheme.secondary, // #8b6f81
+                    checkedColor = MaterialTheme.colorScheme.secondary,
                     uncheckedColor = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.6f)
                 )
             )
@@ -66,7 +66,7 @@ fun TodoItem(
                 Text(
                     text = todo.title,
                     style = MaterialTheme.typography.titleLarge,
-                    color = MaterialTheme.colorScheme.onBackground // #8b6f81
+                    color = MaterialTheme.colorScheme.onBackground
                 )
                 todo.description?.let {
                     Spacer(modifier= Modifier.height(8.dp))
@@ -87,7 +87,7 @@ fun TodoItem(
                 Icon(
                     imageVector = Icons.Default.Delete,
                     contentDescription = "Delete",
-                    tint = MaterialTheme.colorScheme.primary // #db7090
+                    tint = MaterialTheme.colorScheme.primary
                 )
             }
         }

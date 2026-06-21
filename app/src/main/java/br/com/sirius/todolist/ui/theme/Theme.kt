@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package br.com.sirius.todolist.ui.theme
 
 import android.app.Activity

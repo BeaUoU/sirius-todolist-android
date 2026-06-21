@@ -52,7 +52,7 @@ class AddEditViewModel(
     private fun saveTodo() {
         viewModelScope.launch {
             if (title.isBlank()) {
-                _uiEvent.send(UiEvent.ShowSnackbar("Title cannot be empty"))
+                _uiEvent.send(UiEvent.ShowSnackbar("Opa! Você esqueceu de adicionar um título!"))
                 return@launch
             }
 

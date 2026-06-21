@@ -148,7 +148,7 @@ fun AddEditContent(
                     )
                 },
                 placeholder = {
-                    Text(text = "Title")
+                    Text(text = "Adicione um Título aqui..")
                 },
                 colors = textFieldColors
             )
@@ -165,7 +165,7 @@ fun AddEditContent(
                     )
                 },
                 placeholder = {
-                    Text(text = "Description (Optional)")
+                    Text(text = "Descrição(opcional)")
                 },
                 colors = textFieldColors
             )

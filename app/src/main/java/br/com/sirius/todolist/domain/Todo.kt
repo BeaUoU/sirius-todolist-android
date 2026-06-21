@@ -7,7 +7,7 @@ data class Todo(
     val isCompleted: Boolean
 )
 
-//criando 3 objetos falsos para teste
+//dps eu vou criar uma lista de todos
 val todo1 = Todo(
     id = 1,
     title = "Estudar Circuitos",
