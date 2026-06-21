@@ -1,18 +1,18 @@
 # Projeto Final - Aplicativo Lista de Tarefas (To-Do List) 📱
 
-[cite_start]Este repositório contém o código completo do projeto final desenvolvido para o módulo intemediário do curso de Desenvolvimento Android fornecido pelo Programa **Capacita iRede**[cite: 55]. [cite_start]O aplicativo consiste em um gerenciador de tarefas diárias funcional e estruturado com práticas modernas de desenvolvimento nativo[cite: 57, 58].
+Este repositório contém o código completo do projeto final desenvolvido para o módulo intemediário do curso de Desenvolvimento Android fornecido pelo Programa **Capacita iRede**.O aplicativo consiste em um gerenciador de tarefas diárias funcional e estruturado com práticas modernas de desenvolvimento nativo.
 
 ---
 
 ## 👤 Dados do Aluno e Entrega
-* [cite_start]**Nome do Aluno:** Maria Beatriz Vitorino Almeida
-* [cite_start]**Matrícula:** a definir
-* [cite_start]**Data de Entrega:** 21 de Junho de 2026
+* **Nome do Aluno:** Maria Beatriz Vitorino Almeida
+* **Matrícula:** a definir
+* **Data de Entrega:** 21 de Junho de 2026
 
 ---
 
 ## 📝 Justificativa da Escolha do Tema
-A escolha do tema **To-Do List** foi feita para florecer à ideia que introduzi no projeto final(que era a criação de um protótipo de telas) do módulo básico do curso de desenvolvimento Android do **Capacita iREDE**. [cite_start]Minha intenção foi tirar algumas características do protótipo inicial do papel e aplicá-las em um aplicativo real, empregando os conceitos de arquitetura, banco de dados e persistência local[cite: 55]. Pretendo continuar evoluindo e adicionando novos recursos a este aplicativo durante a minha jornada de estudos até que por fim, ele esteja o mais próximo possível do ideal que criei para ele.
+A escolha do tema **To-Do List** foi feita para florecer à ideia que introduzi no projeto final(que era a criação de um protótipo de telas) do módulo básico do curso de desenvolvimento Android do **Capacita iREDE**. Minha intenção foi tirar algumas características do protótipo inicial do papel e aplicá-las em um aplicativo real, empregando os conceitos de arquitetura, banco de dados e persistência local. Pretendo continuar evoluindo e adicionando novos recursos a este aplicativo durante a minha jornada de estudos até que por fim, ele esteja o mais próximo possível do ideal que criei para ele.
 
 ---
 
@@ -22,11 +22,11 @@ O design e a interface do aplicativo foram cuidadosamente guiados para manter ao
 ---
 
 ## 🛠️ Tecnologias e Arquitetura Utilizadas
-[cite_start]O projeto atende a todos os requisitos técnicos obrigatórios exigidos para o desafio[cite: 67]:
-* [cite_start]**Linguagem:** Kotlin (Desenvolvimento Nativo) [cite: 67]
-* [cite_start]**Interface Gráfica (UI):** Jetpack Compose para a construção de telas dinâmicas e reativas[cite: 67].
-* [cite_start]**Persistência de Dados:** Banco de dados local com Room Database, garantindo que as tarefas fiquem salvas mesmo após fechar o app[cite: 67].
-* [cite_start]**Arquitetura:** MVVM (Model-View-ViewModel) para garantir a separação adequada de responsabilidades entre a interface, a lógica de negócios e a camada de dados[cite: 67].
+O projeto atende a todos os requisitos técnicos obrigatórios exigidos para o desafio:
+* **Linguagem:** Kotlin (Desenvolvimento Nativo) 
+* **Interface Gráfica (UI):** Jetpack Compose para a construção de telas dinâmicas e reativas.
+* **Persistência de Dados:** Banco de dados local com Room Database, garantindo que as tarefas fiquem salvas mesmo após fechar o app.
+* **Arquitetura:** MVVM (Model-View-ViewModel) para garantir a separação adequada de responsabilidades entre a interface, a lógica de negócios e a camada de dados.
 
 ### 📚 Utilização de mais algumas Tecnologias
 Para elevar um pouco mais o nível técnico do aplicativo, foram incorporadas as seguintes tecnologias estruturais:
@@ -37,10 +37,10 @@ Para elevar um pouco mais o nível técnico do aplicativo, foram incorporadas as
 ---
 
 ## 📱 Descrição do Funcionamento do Aplicativo
-[cite_start]O aplicativo conta com uma navegação fluida composta por duas telas principais[cite: 67]:
+O aplicativo conta com uma navegação fluida composta por duas telas principais:
 
-1. [cite_start]**Tela de Listagem (ListScreen):** Exibe de forma organizada todas as tarefas que o usuário cadastrou[cite: 63]. Conta com um botão flutuante de ação para o direcionamento de novos cadastros.
-2. [cite_start]**Tela de Cadastro/Detalhes (AddEditScreen):** Contém campos de entrada de texto intuitivos para a digitação do título e da descrição da tarefa[cite: 63]. [cite_start]Ao clicar no botão salvar, as informações são imediatamente validadas e persistidas no banco de dados[cite: 63].
+1. **Tela de Listagem (ListScreen):** Exibe de forma organizada todas as tarefas que o usuário cadastrou. Conta com um botão flutuante de ação para o direcionamento de novos cadastros.
+2. **Tela de Cadastro/Detalhes (AddEditScreen):** Contém campos de entrada de texto intuitivos para a digitação do título e da descrição da tarefa. Ao clicar no botão salvar, as informações são imediatamente validadas e persistidas no banco de dados.
 
 ---
 
