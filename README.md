@@ -6,7 +6,7 @@ Este repositório contém o código completo do projeto final desenvolvido para 
 
 ## 👤 Dados do Aluno e Entrega
 * **Nome do Aluno:** Maria Beatriz Vitorino Almeida
-* **Matrícula:** a definir
+* **Matrícula:** Não informada
 * **Data de Entrega:** 21 de Junho de 2026
 
 ---
